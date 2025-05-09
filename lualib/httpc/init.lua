@@ -30,7 +30,7 @@ local tinsert = table.insert
 
 local __TIMEOUT__ = 15
 
-local methods = { get = true, post = true, put = true, delete = true, xml = true, json = true, file = true}
+local methods = { get = true, post = true, put = true, delete = true, xml = true, json = true, file = true, patch = true}
 
 local function http_requese(sock, opt, req, parameter)
   local ok, err
